@@ -1,15 +1,16 @@
 {
     'name': 'Mugie Custom Repair App',
-    'version': '1.0',
+    'version': '3.0',
     'category': 'Custom',
     'summary': 'Custom features for adding expense accounts and analytic accounting to repair orders',
     'description': """This module extends repair orders to specify expense accounts and analytic distribution
         that will be used in the accounting entries generated from repairs""",
     'author': 'Brian Kipkemboi Kibet',
-    'depends': ['base', 'repair',],
+    'depends': ['base', 'repair', 'account', 'analytic'],
     'website': '',
     'data': [
         'security/ir.model.access.csv',
+        'security/repair_order_rules.xml',
         'views/menu_views.xml',
         'views/repair_form_extend.xml',
         'views/repair_tree_extend.xml',

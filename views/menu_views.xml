@@ -3,5 +3,5 @@
               name="Custom_Repair_App"
               sequence="10"
               action=""
-              web_icon="mugie_custom_receipt,static/description/icon.png"/>
+              web_icon="mugie_custom_repair_app,static/description/icon.png"/>
 </odoo>
