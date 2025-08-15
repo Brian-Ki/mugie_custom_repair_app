@@ -1,0 +1,20 @@
+<odoo>
+    <record id="view_repair_form_inherit_custom" model="ir.ui.view">
+        <field name="name">repair.order.form.inherit.custom</field>
+        <field name="model">repair.order</field>
+        <field name="inherit_id" ref="repair.view_repair_order_form"/>
+        <field name="arch" type="xml">
+
+            <!-- Inject a new page/tab in the notebook for accounting info -->
+            <xpath expr="//notebook" position="inside">
+                <page string="Accounting Info">
+                    <group col="2" class="o_group_inline">
+                        <field name="expense_account_id" placeholder="Select Expense Account"/>
+                        <field name="analytic_distribution_id" placeholder="Select Analytic Distribution"/>
+                    </group>
+                </page>
+            </xpath>
+
+        </field>
+    </record>
+</odoo>

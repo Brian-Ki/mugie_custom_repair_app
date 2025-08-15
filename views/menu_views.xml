@@ -1,0 +1,7 @@
+<odoo>
+    <menuitem id="menu_mugie_root"
+              name="Custom_Repair"
+              sequence="10"
+              action=""
+              web_icon="mugie_custom_repair_app,static/description/icon.png"/>
+</odoo>

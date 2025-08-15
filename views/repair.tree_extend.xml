@@ -1,0 +1,14 @@
+<odoo>
+    <record id="repair_tree_inherit_expense_analytic" model="ir.ui.view">
+        <field name="name">repair.tree.expense.analytic</field>
+        <field name="model">repair.order</field>
+        <field name="inherit_id" ref="repair.view_repair_order_tree"/>
+        <field name="arch" type="xml">
+            <!-- Insert after the repair name field -->
+            <xpath expr="//field[@name='name']" position="after">
+                <field name="expense_account_id" optional="show"/>
+                <field name="analytic_distribution_id" string="Analytic Distribution" optional="show"/>
+            </xpath>
+        </field>
+    </record>
+</odoo>
