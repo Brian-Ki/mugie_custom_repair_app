@@ -6,7 +6,7 @@
     'description': """This module extends repair orders to specify expense accounts and analytic distribution
         that will be used in the accounting entries generated from repairs""",
     'author': 'Brian Kipkemboi Kibet',
-    'depends': ['base', 'repair', 'account', 'analytic'],
+    'depends': ['base', 'repair',],
     'website': '',
     'data': [
         'security/ir.model.access.csv',
