@@ -1,6 +1,6 @@
 {
     'name': 'Mugie Custom Repair App',
-    'version': '3.0',
+    'version': '3.1.0',
     'category': 'Custom',
     'summary': 'Custom features for adding expense accounts and analytic accounting to repair orders',
     'description': """This module extends repair orders to specify expense accounts and analytic distribution
@@ -10,18 +10,14 @@
     'website': '',
     'data': [
         'security/ir.model.access.csv',
-        'security/repair_order_rules.xml',
-        'views/menu_views.xml',
-        'views/repair_form_extend.xml',
-        'views/repair_tree_extend.xml',
-
-
-
+        'security/custom_repair_order_rules.xml',
+        'views/custom_repair_menu_views.xml',
+        'views/custom_repair_form_extend.xml',
+        'views/custom_repair_tree_extend.xml',
     ],
 
 
     'installable': True,
     'application': True,
-    'license': 'LGPL-3',
-    'images': ['static/description/icon.png'],
+    'license': 'TMCL',
 }
