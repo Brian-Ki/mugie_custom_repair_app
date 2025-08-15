@@ -10,7 +10,7 @@
                 <page string="Accounting Info">
                     <group col="2" class="o_group_inline">
                         <field name="expense_account_id" placeholder="Select Expense Account"/>
-                        <field name="analytic_distribution_id" placeholder="Select Analytic Distribution"/>
+                        <field name="analytic_distribution_model_id" placeholder="Select Analytic Distribution"/>
                     </group>
                 </page>
             </xpath>
