@@ -1,6 +1,6 @@
 {
     'name': 'Mugie Custom Repair App',
-    'version': '3.1.1',
+    'version': '3.2.1',
     'category': 'Services/Repair',
     'summary': 'Adds expense accounts and analytic distribution fields to Repair Orders',
     'description': """
